@@ -6,11 +6,22 @@ git status -- what changes you have done whether it is tracked or untracked
               (you can use this inside working directory and stagging area)
 
 stagging area
-git add text1.txt
-git add text.txt
+    git add text1.txt
+    git add text.txt
 
-to add everything at the same time:
-            git add .
+    to add everything at the same time:
+                git add .
 
-if you write something, that are unchacked, you can see which thing is unchecked by this:
-            git diff
+    if you write something, that are untracked, you can see which thing is unchecked by this:
+                git diff
+        
+    if you want to remove the untracted thing, then :
+                git restore file_name
+local repo. 
+    -m represents message
+    git commit -m "name, age is added"
+    here, commit id is very important for version control
+
+    to see all the commits that I have made:
+        git log
+    
