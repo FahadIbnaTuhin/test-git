@@ -1,0 +1,13 @@
+[1mdiff --git a/text1.txt b/text1.txt[m
+[1mindex e466a7c..8dc5508 100644[m
+[1m--- a/text1.txt[m
+[1m+++ b/text1.txt[m
+[36m@@ -6,3 +6,8 @@[m [mgit add text.txt[m
+ [m
+ to add everything at the same time:[m
+             git add .[m
+[32m+[m[41m[m
+[32m+[m[32mif you write something, that are unchacked, you can see which thing is unchecked by this:[m[41m[m
+[32m+[m[32m            git diff[m[41m[m
+[41m+[m
+[41m+[m

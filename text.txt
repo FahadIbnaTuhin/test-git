@@ -1,0 +1,16 @@
+working directory -> Stagging area -> local repo. -> remote repo
+test-project      ->    git add    ->  git commit -> git push
+
+git init -- to initilize a git folder
+git status -- what changes you have done whether it is tracked or untracked
+              (you can use this inside working directory and stagging area)
+
+stagging area
+git add text1.txt
+git add text.txt
+
+to add everything at the same time:
+            git add .
+
+if you write something, that are unchacked, you can see which thing is unchecked by this:
+            git diff
