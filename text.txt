@@ -20,8 +20,21 @@ stagging area
 local repo. 
     -m represents message
     git commit -m "name, age is added"
-    here, commit id is very important for version control
+    here, commit id is very important for version control and every commid has differend unique id code
 
     to see all the commits that I have made:
         git log
+    
+    to see only commit id and msg:
+        git log --oneline
+
+you can go back to stagging area by :
+    git reset --soft HEAD^
+you can go back to working area by :
+    git reset HEAD^ 
+delete all the changes that you have made
+    git reset --hard HEAD^
+
+to change version:
+    git checkout commit_id_of_that_where_you_want_to_go
     
