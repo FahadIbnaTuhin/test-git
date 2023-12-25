@@ -1,3 +1,1 @@
-I am from feature2 and I am special because I am the only
-feature that added to this update
-I am from line 4 from feature 4 branch
+I am from line 3 from master branch
